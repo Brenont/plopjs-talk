@@ -4,7 +4,7 @@ import * as S from "./styles";
 const Home = () => {
   return (
     <S.HomeWrapper>
-      <h1>HOME PAGE</h1>
+      <h1>Home</h1>
     </S.HomeWrapper>
   );
 };
