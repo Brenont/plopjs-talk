@@ -1,9 +1,11 @@
-function App() {
+import { Routes } from "./routes";
+
+const App = () => {
   return (
     <div>
-      <h1>Plop JS</h1>
+      <Routes />
     </div>
   );
-}
+};
 
 export default App;
