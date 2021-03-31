@@ -16,8 +16,26 @@ module.exports = function (plop) {
       },
       {
         type: "add",
-        path: "src/pages/{{pascalCase name}}/style.js",
-        templateFile: "plop-templates/page/style.hbs",
+        path: "src/pages/{{pascalCase name}}/styles.js",
+        templateFile: "plop-templates/page/styles.hbs",
+      },
+      {
+        type: "append",
+        path: "src/pages/index.js",
+        pattern: `/* PLOP_PAGE_EXPORT */`,
+        template: `export { default as {{pascalCase name}} } from "./{{pascalCase name}}"`,
+      },
+      {
+        type: "append",
+        path: "src/routes.js",
+        pattern: `/* PLOP_ROUTE_IMPORT */`,
+        template: `\t{{pascalCase name}},`,
+      },
+      {
+        type: "append",
+        path: "src/routes.js",
+        pattern: `{/* PLOP_INJECT_ROUTE */}`,
+        template: `\t\t\t\t<Route exact path="/{{dashCase name}}" component={ {{pascalCase name}} } />`,
       },
     ],
   });

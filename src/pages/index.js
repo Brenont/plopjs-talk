@@ -1,3 +1,2 @@
-import Home from "./Home";
-
-export { Home };
+/* PLOP_PAGE_EXPORT */
+export { default as Home } from "./Home";
