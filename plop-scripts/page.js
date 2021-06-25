@@ -3,7 +3,7 @@ module.exports = {
   prompts: [
     {
       type: "input",
-      name: "name",
+      name: "pageName",
       message: "Qual será o nome da sua pagina?",
     },
   ],
