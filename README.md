@@ -1,15 +1,15 @@
 # PlopJS
 
-PlopJS é um framework micro-gerador capaz de criar novos arquivos com templates de codigos pré definidos e até mesmo adicionar linhas de códigos e arquivos já existente.
+PlopJS is a micro-generator framework capable to create new files with predefined code templates and even adding lines of code and existing files.
 
-Esse repositório foi utilizado para talk na BigReview, evento da Globo.
+This repository was used for talk at BigReview, a Globo event.
 
-[Você pode ver o conteúdo da talk aqui](./PlopJS.pdf)
+[You can see the talk content here](./PlopJS.pdf)
 
-## Para utilizar o plop
+## To use plop
 
-Após instalar as dependencias do projeto com: **yarn** ou **npm install** você deve utilizar o comando **yarn plop**.
+After installing the project dependencies with: **yarn** or **npm install** you must use the **yarn plop** command.
 
-Nesse momento o arquivo **plopfile.js** será lido.
+At this point, the **plopfile.js** file will be read.
 
-Esse repositório é apenas um exemplo do uso do PlopJS, recomendo fortemente que olhe a [documentação oficial](https://plopjs.com/documentation/)
+This repository is just an example of using PlopJS, I strongly recommend that you look at the [official documentation](https://plopjs.com/documentation/)
