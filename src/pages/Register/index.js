@@ -1,12 +1,11 @@
 import React from "react";
-import * as S from "./styles";
 
 const Register = () => {
-return (
-<S.RegisterWrapper>
-  <h1>Register</h1>
-</S.RegisterWrapper>
-);
+  return (
+    <div id="register-wrapper">
+      <h1>Register PAGE</h1>
+    </div>
+  );
 };
 
 export default Register;

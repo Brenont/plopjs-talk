@@ -1,12 +1,11 @@
 import React from "react";
-import * as S from "./styles";
 
 const {{pascalCase pageName}} = () => {
-return (
-<S.{{pascalCase pageName}}Wrapper>
-  <h1>{{pascalCase pageName}}</h1>
-</S.{{pascalCase pageName}}Wrapper>
-);
+  return (
+    <div id="{{kebabCase pageName}}-wrapper">
+      <h1>{{pascalCase pageName}} PAGE</h1>
+    </div>
+  );
 };
 
 export default {{pascalCase pageName}};

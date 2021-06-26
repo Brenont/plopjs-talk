@@ -1,12 +1,11 @@
 import React from "react";
-import * as S from "./styles";
 
 const Login = () => {
-return (
-<S.LoginWrapper>
-  <h1>Login</h1>
-</S.LoginWrapper>
-);
+  return (
+    <div id="login-wrapper">
+      <h1>Login PAGE</h1>
+    </div>
+  );
 };
 
 export default Login;
