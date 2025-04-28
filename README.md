@@ -1,8 +1,8 @@
 # PlopJS
 
-PlopJS is a micro-generator framework capable to create new files with predefined code templates and even adding lines of code and existing files.
+PlopJS is a micro-generator framework capable of creating new files with predefined code templates and even adding lines of code to existing files.
 
-This repository was used for talk at BigReview, a Globo event.
+This repository was used for a talk at BigReview, a GloboTV event, and other presentations.
 
 You can see the talk content here:
 
