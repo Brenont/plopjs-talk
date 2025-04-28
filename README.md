@@ -4,7 +4,11 @@ PlopJS is a micro-generator framework capable to create new files with predefine
 
 This repository was used for talk at BigReview, a Globo event.
 
-[You can see the talk content here (only portuguese)](./PlopJS.pdf)
+You can see the talk content here:
+
+[Original (PT-BR)](./PlopJS.pdf)
+
+[Translated (English)](./PlopJS-en.pdf)
 
 ## To use plop
 
